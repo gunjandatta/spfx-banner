@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dattabase.sharepoint.com/sites/dev/SitePages/Home.aspx",
+      "customActions": {
+        "3aac44bc-f81b-4650-966e-841358885d9c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "webUrl": "/sites/dev",
+            "fileUrl": "siteassets/banner.json"
+          }
+        }
+      }
+    },
+    "globalBanner": {
+      "pageUrl": "https://dattabase.sharepoint.com/sites/dev/SitePages/Home.aspx",
+      "customActions": {
+        "3aac44bc-f81b-4650-966e-841358885d9c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "webUrl": "/sites/dev",
+            "fileUrl": "siteassets/banner.json"
+          }
+        }
+      }
+    }
+  }
+}

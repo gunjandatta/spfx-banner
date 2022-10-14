@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="GlobalBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="3aac44bc-f81b-4650-966e-841358885d9c"
+        ClientSideComponentProperties="{&quot;webUrl&quot;:&quot;/sites/dev&quot;,&quot;fileUrl&quot;:&quot;siteassets/banner.json&quot;}">
+    </CustomAction>
+</Elements>
